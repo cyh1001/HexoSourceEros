@@ -1,0 +1,45 @@
+@import 'nib'
+
+@import '_base/variable'
+@import '_base/utils'
+@import '_base/layout'
+
+@import '_partial/header'
+@import '_partial/article'
+@import '_partial/comment'
+@import '_partial/index'
+@import '_partial/archive'
+@import '_partial/sidebar'
+@import '_partial/footer'
+@import '_partial/syntax'
+
+// 分页导航样式
+.pagination-container
+  text-align center
+  padding 20px 0
+  font-family Arial, sans-serif
+
+  .page-number,
+  .extend
+    display inline-block
+    margin 0 5px
+    padding 8px 12px
+    background-color #f4f4f4
+    color #333
+    border-radius 4px
+    text-decoration none
+    transition background-color 0.3s, color 0.3s
+
+    &:hover
+      background-color #007bff
+      color #fff
+
+  .current
+    background-color #007bff
+    color #fff
+
+  .space
+    margin 0 5px
+
+  .extend
+    font-weight bold

@@ -1,0 +1,34 @@
+menu:
+  Home: /
+  Archives: archives
+  RSS: /atom.xml  # 确保你已安装 hexo-generator-feed 并正确生成了 feed 文件
+  友情链接: /friends  # 这将指向一个你稍后创建的友情链接页面
+
+widgets:
+- search
+- category
+- tag
+
+excerpt_link: 继续阅读
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+fancybox: true
+
+google_analytics:
+rss:
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+# markdown:
+#   render:
+#     html: true
