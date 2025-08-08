@@ -2,6 +2,7 @@
 title: 随想-2025年8月
 date: 2025-07-31 14:21:29
 tags:
+comments: false
 ---
 
 很有意思的文章：[《Revenge of the Blockheads》](https://www.experimental-history.com/p/revenge-of-the-blockheads)
